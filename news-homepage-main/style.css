@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+}
+.aside {
+  /* width: 20%; */
+  background-color: hsl(240, 100%, 5%);
+}
+.aside h1 {
+  font-size: xx-large;
+  color: hsl(35, 77%, 62%);
+  padding: 10px;
+}
+.aside h3 {
+  color: white;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.aside p {
+  color: hsl(236, 13%, 42%);
+  padding-bottom: 15px;
+  margin: 10px;
+  /* padding: 10px; */
+  border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+.text {
+  display: flex;
+  /* gap: 40px; */
+  padding: 5px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  width: 100%;
+  /* background: red; */
+  padding: 10px;
+  font-stretch: ultra-expanded;
+}
+.section img {
+  width: 100%;
+  margin-left: 10px;
+}
+.overallcont {
+  display: flex;
+  margin: 5% auto;
+  /* margin-right: 40%; */
+  margin-top: 0px;
+  width: 90%;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  position: sticky;
+  top: 0px;
+  margin: 5% auto;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  margin-top: 0%;
+  background-color: white;
+}
+.head {
+  text-decoration: none;
+  color: rgb(138, 134, 134);
+  font-size: medium;
+}
+.w {
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+}
+.aside {
+  margin-left: 30px;
+  width: 30%;
+  padding: 20px;
+  padding-bottom: 0%;
+}
+nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  float: right;
+  padding: 20px;
+  gap: 20px;
+  font-family: sans-serif;
+}
+.bright {
+  font-weight: bolder;
+  width: 45%;
+}
+.read {
+  font-size: small;
+  width: 45%;
+}
+.btn {
+  margin-top: 10px;
+  padding: 7px;
+  background-color: rgb(241, 78, 78);
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.beneath {
+  display: flex;
+}
+.box1 img {
+  width: 50%;
+  margin: 30px;
+  margin-top: 0;
+  margin-left: 40%;
+  height: 75%;
+}
+.pc {
+  color: hsl(5, 85%, 63%);
+}
+.piece {
+  color: gray;
+  font-size: medium;
+}
+.box1 {
+  width: 50%;
+  /* background-color: red; */
+}
+.cover {
+  display: flex;
+}
+body {
+  font-family: sans-serif;
+}
